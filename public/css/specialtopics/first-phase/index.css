@@ -1,0 +1,76 @@
+body{font-family:'宋体,微软雅黑';}
+	img,span{display:block;}
+	*{margin:0;padding:0;}
+	li{float: left;list-style:none;}
+	a{text-decoration:none;color: #8a0d17;}
+
+	.container{width:100%;background: #8a0d17;color: #8a0d17;min-width: 990px;}
+	.head .tel,.head .text2 .p2{background:url(../../../images/specialtopics/first-phase/icon.png) no-repeat center center;display:block;}
+
+	.head{width: 100%;height: 120px;background:#F8F8C8 url(../../../images/specialtopics/first-phase/zhuanti_head.jpg) repeat-x bottom center;vertical-align:middle;}
+	.head_con{width:824px;margin:0 auto;}
+	.head .line{width: 1px;height: 80px;background: #B00209;float:left;margin-right:63px;margin-top:15px;}
+	.head .text{font-family:宋体;font-size:48px;color:#ef165d;float:left;padding-top:30px;}
+	.head .text2,.head .tel{float:right;color:#b00209;font-family: 微软雅黑;text-align:center;}
+	.head .text2 .p1{font-size: 18px;}
+	.head .text2 .p2{font-size: 26px;font-family: 宋体;width: 165px;height:41px;background-position: 0 -116px;line-height: 41px;}
+	.head .tel{margin-top:13px;height: 87px;background-position: 0 0;width: 187px;line-height: 30px;margin-left:14px;}
+	.head .text2{margin-top:30px;}
+	.head .tel .p1{padding-top:15px;}
+	.head .tel .p2{font-size: 18px;}
+
+	/*banner*/
+	.banner_out{width: 100%;overflow: hidden;background: url(../../../images/specialtopics/first-phase/bg_big1.jpg) no-repeat center top;}
+	.banner{width: 990px;margin:0 auto;}
+
+	/*section*/
+	section{width: 100%;overflow: hidden;position: relative;}
+
+	/*service*/
+	.service{text-align:center;width: 100%;margin:0 auto;}
+	.service .tit{font-size: 48px;color:#f8f8c8;font-family: 宋体;}
+	.service .tit_con{width:990px;height:135px;background: url(../../../images/specialtopics/first-phase/tit_con.png) no-repeat;display: block; margin:0 auto;}
+	.service .tit_con ul{padding-top:16px;margin:0px 30px;}
+	.service .tit_con ul li{width: 225px;height:103px;background: #f8f8c8;text-align:center;line-height: 103px;}
+	.service .tit_con ul li+li{margin-left: 10px;}
+	.service .tit_con ul li a{font-size: 24px;font-family:微软雅黑; }
+
+	/*floor1*/
+	.floor1,.floor2,.floor3{width:1920px;height:275px;margin:0 auto;display: block;text-align: center;line-height: 275px;font-family: 宋体;font-size: 72px;min-width: 990px;position: relative;left:50%;margin-left:-960px;}
+
+	.floor1{background: url(../../../images/specialtopics/first-phase/floor_cloud_01.png) no-repeat;}
+	.floor2{background: url(../../../images/specialtopics/first-phase/floor_cloud_02.png) no-repeat;}
+	.floor3{background: url(../../../images/specialtopics/first-phase/floor_cloud_03.png) no-repeat;}
+
+
+	.floor1_con,.floor2_con,.floor3_con{width: 993px;border:2px solid #e60012;border-radius:24px;background: #f8f8c8;overflow: hidden;margin:0 auto;margin-bottom: 18px;padding: 0px 25px;}
+
+	.floor1_con{position: relative;}
+	.floor1_con .price{width:348px;height: 345px;background: url(../../../images/specialtopics/first-phase/hua.png) no-repeat;display: block;text-align: center;margin:14px 85px 14px 59px;float:left; }
+	.floor1_con .price .p1{font-family: Terminal;font-size: 48px;padding: 95px 0px 55px 0px;}
+	.floor1_con .price .p2{font-family: 宋体;font-size:30px;}
+	.floor1_con .price .p2 b{vertical-align: top;font-size: 20px;vertical-align: top;font-weight: 400;}
+	.floor1_con .price .p2 .jiage{font-family: Impact;font-size:40px;display: inline-block;vertical-align:10px;line-height: 45px;}
+	.introduction{width: 500px;float: right;font-size: 28px;font-family: 仿宋;text-indent: 2em;padding-top:109px;}
+
+	/*floor1_con2*/
+	.floor1_con2,.floor1_con4{position: relative;}
+	.floor1_con2 .price,.floor1_con4 .price{float: right;}
+	.song{width: 129px;height: 129px;position: absolute;bottom: 14px;left:35px;}
+	.floor1_con3 .price .p1{font-size: 30px;}
+
+	/*.floor2_con*/
+	.floor2_con{padding-top:28px;padding-bottom: 28px; }
+	.floor2_con,.floor3_con{height: 316px;}
+	.floor2_con span{float: left;width: 423px;height: 317px;display: block;}
+	.floor2_con span+span{margin-left:65px;}
+	.floor2_con span img{width: 423px;height: 318px;display: block;}
+	.floor2_con .tu1{margin-left:40px;}
+
+ 	/*floor3_con2*/
+	.floor3_con2{width:1048px;margin: 0 auto;}
+
+	/*floor3_con*/
+	.floor3_con.left,.floor3_con.right{width: 462px;float: left;height: 614px;position: relative;}
+	.floor3_con.left+.floor3_con.right{margin-left:15px;}
+	.yuyue{width:183px;height:43px;display: block;background: url(../../../images/specialtopics/first-phase/yuyue.png) no-repeat 0 0;position: absolute;bottom:40px;right:60px; }
